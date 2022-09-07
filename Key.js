@@ -1,4 +1,4 @@
-keyPressed = function(){
+function keyPressed(){
 	switch(stage.scene){
 		case "level":
 			if(key == "a"||key == "A"){
@@ -71,7 +71,7 @@ keyPressed = function(){
 		break;
 	}
 }
-keyReleased = function(){
+function keyReleased(){
 	switch(stage.scene){
 		case "level":
 			if(key == "a"||key == "A"){
